@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data (replace with your own data loading logic)
-file_path = '/Users/admin/Documents/work_trent_fenrir/TRENT_AS/FENRIR_AS/github_rep/fixed_ssb_startup_table.xlsx'
+file_path = 'fixed_ssb_startup_table.xlsx'
 data = pd.read_excel(file_path, sheet_name=None)
 df = data['Sheet1']
 
